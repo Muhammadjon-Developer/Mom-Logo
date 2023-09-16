@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Borel&family=Corinthia&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300&family=Satisfy&family=Tektur:wght@900&display=swap');
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #e8c7fb;
+    min-height: 100vh;
+}
+
+.first-ball {
+    width: 450px;
+    height: 450px;
+    background-color: #afc9fc;
+    margin-right: 330px;
+    border-radius: 50%;
+    filter: drop-shadow(30px 30px 30px #98cef8);
+}
+
+.second-ball {
+    width: 450px;
+    height: 450px;
+    background-color: #f88dcd;
+    margin-left: 280px;
+    opacity: 0.5;
+    border-radius: 50%;
+    filter: drop-shadow(30px 30px 30px #f88dcd);
+}
+
+h3 {
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 200px;
+    color: #fff;
+    font-family: 'Borel', cursive;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
